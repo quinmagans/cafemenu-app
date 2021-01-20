@@ -6,9 +6,8 @@
   margin-bottom: 25px;
 
   .logo-container {
-    height: 100%;
-    width: 70px;
-    padding: 25px;
+    height: 50%;
+    width: 50px;
   }
 
   .logo-title {
@@ -16,7 +15,7 @@
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: inherit;
   }
 
   .options {
@@ -28,6 +27,7 @@
 
     .option {
       padding: 10px 15px;
+      cursor: pointer;
     }
   }
 }
