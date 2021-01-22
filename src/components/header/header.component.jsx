@@ -12,7 +12,7 @@ const Header = ({currentUser}) => (
         </Link>
         <div className="logo-title">MUG AND SEE</div>
         <div className="options">
-            <Link className="option" to="/shop">SHOP</Link>
+            <Link className="option" to="/shop">MENU</Link>
             <Link className="option" to="/contact">CONTACT</Link>
             {
             currentUser ? 
