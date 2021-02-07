@@ -1,5 +1,5 @@
-const MENU_DATA = [
-    {
+const MENU_DATA = {
+    coffee: {
       id: 1,
       title: 'Coffee',
       routeName: 'coffee',
@@ -30,7 +30,7 @@ const MENU_DATA = [
         },
       ]
     },
-    {
+    colddrinks: {
       id: 2,
       title: 'Cold Drinks',
       routeName: 'cold',
@@ -61,7 +61,7 @@ const MENU_DATA = [
         },
       ]
     },
-    {
+    desserts: {
       id: 3,
       title: 'Desserts',
       routeName: 'desserts',
@@ -93,7 +93,7 @@ const MENU_DATA = [
   
       ]
     },
-    {
+    pastaandsandwhich: {
       id: 4,
       title: 'Pasta and Sandwich',
       routeName: 'pasta',
@@ -124,7 +124,7 @@ const MENU_DATA = [
         },
       ]
     },
-    {
+    specialdrinks: {
       id: 5,
       title: 'Special Drinks',
       routeName: 'special',
@@ -155,7 +155,7 @@ const MENU_DATA = [
         },
       ]
     }
-  ];
+};
   
   export default MENU_DATA;
   
