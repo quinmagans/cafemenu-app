@@ -16,7 +16,6 @@ const Header = ({currentUser, hidden}) => (
         <Link className="logo-container" to="/">
             <Logo className="logo" />
         </Link>
-        <div className="logo-title">MUG AND SEE</div>
         <div className="options">
             <Link className="option" to="/menu">MENU</Link>
             <Link className="option" to="/contact">CONTACT</Link>
